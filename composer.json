@@ -1,0 +1,24 @@
+{
+  "name": "digg-ecard/diggecard-klarna-payments-integration",
+  "description": "A Magento 2 module that allow to work Diggecard with Klarna Payments methods",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": ">=7.0",
+    "magento/framework": ">=100.0.4",
+    "digg-ecard/diggecard": "^1.0"
+  },
+  "minimum-stability" : "stable",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Diggecard\\KlarnaPaymentsIntegration\\": ""
+    }
+  }
+}
